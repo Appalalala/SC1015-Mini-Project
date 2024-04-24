@@ -38,7 +38,7 @@ The following is the factors we will be looking at
 ## Data Cleaning
 ### 1. Blood pressure data consists of both systolic blood pressure level and diastolic blood pressure level separated by a /.
 
-We initialise 2 new variables **Systolic_Blood_Pressure** and **Diastolic_Blood_Pressure**.
+We initialise 2 new variables `Systolic_Blood_Pressure` and `Diastolic_Blood_Pressure`.
 
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/bf3ea47f-fecd-4fd8-85c7-99fe8cf41bcb" width="600">
 
@@ -108,9 +108,10 @@ We decided to use these 4 machine learning models to be able to predict Heart At
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/980361b3-e2e8-44aa-aae3-b40abdb0fcc8" width ="600">
 
 ## 1.Linear Regression
-Linear Regression is a **machine learning model** that describes the relationship between a dependent variable,y which in this case is the Heart Attack Risk, and one or more independent variables, which are our factors. The goal is to find the best-fitting linear line that minimises the sum of squared differences between the observed and predicted values.
+`Linear Regression` is a **machine learning model** that describes the relationship between a dependent variable, y, which in this case is the Heart Attack Risk, and one or more independent variables, x, which are our chosen variables. The goal is to find the **best-fitting linear line** that **minimises the sum of squared differences** between the observed and predicted values.
  The line is described by the equation:
    - 𝑦 =𝑚𝑥+c
+
 ### Univariate Linear Regression
 #### **Income:**
 
@@ -130,11 +131,11 @@ Linear Regression is a **machine learning model** that describes the relationshi
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/5ab71cab-3f51-4c3d-a5a3-0f56af891b56" width = 600>
 
 ### Findings for Linear Regression
-The **negative explained variance** told us that the Linear Regression model fits the data very badly. We found out that the linear regression model is not an accurate model to represent Heart Attack Risk which takes on a **binary value** of 0 or 1. This is because Linear Regression assumes a linear relationship between the independent variables and the dependent variable and as such is unable to capture the **non-linear relationships** between predictor variables and the binary outcome. 
+The **negative explained variance** told us that the Linear Regression model fits the data very badly. We found out that the linear regression model is **not an accurate model** to represent Heart Attack Risk which takes on a **binary value** of 0 or 1. This is because Linear Regression assumes a linear relationship between the independent variables and the dependent variable and as such is unable to capture the **non-linear relationships** between predictor variables and the binary outcome. 
 
 
 ## 2.Logistic Regression
-Logistic Regression Model in which a **logistic function** is used to model the relationships between predictor variables and the binary response variable. The model would then estimate the coefficients of the model that maximises the probability of the observed data
+`Logistic Regression Model` in which a **logistic function** is used to model the relationships between predictor variables and the binary response variable. The model estimates the coefficients of the model that maximises the probability of the observed data
    ### UniVariate Lgositic Regression
    #### **Income:**
    **Test Accuracy: 0.6435907189045265**
@@ -157,13 +158,13 @@ Logistic Regression Model in which a **logistic function** is used to model the 
    <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/3ff7d8a0-c210-4da4-87bd-e100663460de" width="600">
 
    ### Multi-Variate Logistic Regression
-   **Multivariate regressions enables us to capture more complex relationships and interactions among variables that may not be apparent when considering only one    predictor variable at a time.**
-   We then proceeded to do a Multivariate Logistic Regression Model where all the predictor variables were used together to predict Heart Attack Risk.
+   `Multivariate Logistic Regressions` enables us to capture **more complex relationships and interactions among variables that may not be apparent when considering only one predictor variable at a time.**
+   We then proceeded to do a `Multivariate Logistic Regression Model` where all the predictor variables were used together to predict Heart Attack Risk.
 
    ![image](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/80133350-c989-4517-a620-acd4f98d5ea5)
 
 ## 3. Random Forest Machine Learning
-Random Forest is like a group decision-making team in machine learning. It combines the opinions of many “ decision trees”. It then takes these many decision trees and combines them to avoid overfitting which would then produce more accurate predictions. We included it because it can handle noisy data and is efficient with large datasets. It is a method that has been successfully used in many different fields of research and is definitely a popular ML algorithm in health care.
+`Random Forest` is similar to a group decision-making team in machine learning. It combines the opinions of many “ decision trees”. It then takes these many decision trees and combines them to **avoid overfitting** which would then produce more accurate predictions. We included it because it can handle noisy data and is efficient with large datasets. It is a method that has been successfully used in many different fields of research and is definitely a popular ML algorithm in health care.
    ## First Iteration:
     In our first iteration, the model returned a low accuracy with very high False Negative Rate.
 
