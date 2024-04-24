@@ -80,3 +80,55 @@ Despite having the highest correlation value under Medical History sub-categoric
 
 ## Our Mission
 To accurately classify the Heart Attack Risk (0 or 1) of an individual based on these factors using Machine Learning 
+
+## Machine Learning Models
+![image](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/980361b3-e2e8-44aa-aae3-b40abdb0fcc8)
+
+## 1.Linear Regression
+
+
+
+
+
+## 2.Logistic Regression
+Income:\
+<img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/ac40ce6d-576b-4f3e-b9c3-5863447cbad7" width="500"> 
+
+Systolic Blood Pressure:\
+<img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/25436725-2929-4ce8-99eb-91182c57a824" width="500">
+
+Cholesterol:\
+<img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/38cf1057-3f15-4713-ae53-8785051a380c" width="500">
+
+Medication Use:\
+<img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/3ff7d8a0-c210-4da4-87bd-e100663460de" width="600">
+
+## 3. Multi-Variate Logistic Regression
+For Income, Systolic Blood Pressure, Cholesterol and Medication Use:
+![image](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/80133350-c989-4517-a620-acd4f98d5ea5)
+
+## 4. Random Forest Machine Learning
+   ## First Iteration: 
+   <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/54e32ec0-a73f-453e-b5a7-ca9226b68498" width="400"> <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/cbb77a43-2a37-413c-b029-20803294f937" width="400">
+   ## Second Iteration:
+   -> n_estimators = 2000 and max_depth = 20
+
+   ## Using GridSearch CV to find Best Model
+   <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/3a66b653-623a-4e03-bb5b-658484e3012f" width="600">
+
+   ## Trying with Best Model from GridSearch 
+   <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/13733577-5219-44af-9bb9-e4f5a6556234" width="600">
+   
+   ## We realized that the True and False, negative and positive rates are undesirable and that data is imbalanced. Adjusted the data.
+
+   ## Best Forest Iteration
+   <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/82f54208-15d4-4e0a-8a57-a6db36f08629" width="600">
+
+   
+   
+
+
+   
+
+
+
