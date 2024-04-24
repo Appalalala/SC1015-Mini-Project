@@ -232,7 +232,7 @@ Firstly, we standardise our data variables to ensure that all variables are of t
 
    <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/dfdca633-2745-4e59-a233-6658afe1fc9d" width =600>
 
-   It returns a better test accuracy than the first model  still has an extremely high False Positive Rate which is even higher than the first model.
+   It returns a better test accuracy than the first model but still has an extremely high False Positive Rate which is even higher than the first model.
 
 ## Conclusion
 Out of the 4 machine learning models, `Random Forest` is the model that is best at predicting `Heart attack risk` among individuals, having the **highest accuracy** of **0.6930** and a **F1-score** of around **0.7**.
