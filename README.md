@@ -36,6 +36,11 @@ The following is the factors we will be looking at
 1. Blood pressure data consists of both systolic blood pressure level and diastolic blood pressure level separated by a /.
 We initialise 2 new variables Systolic_Blood_Pressure and Diastolic_Blood_Pressure.
 ![Screenshot 2024-04-24 at 5 56 29 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/bf3ea47f-fecd-4fd8-85c7-99fe8cf41bcb)
+2. We drop these 4 factors
+   - Patient ID : irrelevant
+   - Country & Hemisphere : Are better represented by continent to show distribution of the participations
+   - Blood Pressure : Split into Systolic and Diastolic Blood Pressure earlier
 ![Screenshot 2024-04-24 at 5 56 45 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/f20cac37-4677-45fe-8f58-9beaf7397aae)
 ![Screenshot 2024-04-24 at 5 56 59 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/7f3828d5-a035-4b0b-accd-e2410194147e)
-![Screenshot 2024-04-24 at 5 51 56 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/62385ab4-6eac-4d36-b91f-a2bbe0fcfa4a)
+3. Ensure that our data is non-null
+![Screenshot 2024-04-24 at 3 28 54 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/d231569f-c9c1-4e4a-8b67-cc68c8981187)
