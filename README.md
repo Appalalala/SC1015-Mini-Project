@@ -71,7 +71,7 @@ For bars lying above the x axis, it shows a positive correlation while for bars 
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/a4c98fac-a3a1-43fd-9498-1084f1ea7ab5" width="600">
 
 ## Heat Maps that show Correlation
-   - Correlation values are reflected in the heat maps to show their relationship with `Heart Attack Risk`
+   - Correlation values are reflected in the heat maps to show their relationships with `Heart Attack Risk`
      
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/5a7eb960-c5e1-4e10-9bf9-a16d56427454" width ="600">
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/cf63576d-b093-48c4-8181-4a3e611c0b9a" width ="600">
