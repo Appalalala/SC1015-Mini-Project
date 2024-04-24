@@ -129,51 +129,107 @@ The **negative explained variance** told us that the Linear Regression model fit
 
 ## 2.Logistic Regression
 Logistic Regression Model in which a **logistic function** is used to model the relationships between predictor variables and the binary response variable. The model would then estimate the coefficients of the model that maximises the probability of the observed data
-### UniVariate Lgositic Regression
-#### **Income:**
-**Test Accuracy: 0.6435907189045265**
+   ### UniVariate Lgositic Regression
+   #### **Income:**
+   **Test Accuracy: 0.6435907189045265**
 
-<img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/ac40ce6d-576b-4f3e-b9c3-5863447cbad7" width="600"> 
+   <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/ac40ce6d-576b-4f3e-b9c3-5863447cbad7" width="600"> 
 
-#### **Systolic Blood Pressure:**
-**Test Accuracy: 0.6451122099657665**
+   #### **Systolic Blood Pressure:**
+   **Test Accuracy: 0.6451122099657665**
 
-<img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/25436725-2929-4ce8-99eb-91182c57a824" width="600">
+   <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/25436725-2929-4ce8-99eb-91182c57a824" width="600">
 
-#### **Cholesterol:**
-**Test Accuracy: 0.6496766831494865**
+   #### **Cholesterol:**
+   **Test Accuracy: 0.6496766831494865**
 
-<img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/38cf1057-3f15-4713-ae53-8785051a380c" width="600">
+   <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/38cf1057-3f15-4713-ae53-8785051a380c" width="600">
 
-#### **Medication Use:**
-**Test Accuracy: 0.6356028908330164**
+   #### **Medication Use:**
+   **Test Accuracy: 0.6356028908330164**
 
-<img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/3ff7d8a0-c210-4da4-87bd-e100663460de" width="600">
+   <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/3ff7d8a0-c210-4da4-87bd-e100663460de" width="600">
 
-### Multi-Variate Logistic Regression
-**Multivariate regressions enables us to capture more complex relationships and interactions among variables that may not be apparent when considering only one predictor variable at a time.**
-We then proceeded to do a Multivariate Logistic Regression Model where all the predictor variables were used together to predict Heart Attack Risk.
+   ### Multi-Variate Logistic Regression
+   **Multivariate regressions enables us to capture more complex relationships and interactions among variables that may not be apparent when considering only one    predictor variable at a time.**
+   We then proceeded to do a Multivariate Logistic Regression Model where all the predictor variables were used together to predict Heart Attack Risk.
 
-![image](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/80133350-c989-4517-a620-acd4f98d5ea5)
+   ![image](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/80133350-c989-4517-a620-acd4f98d5ea5)
 
 ## 3. Random Forest Machine Learning
 Random Forest is like a group decision-making team in machine learning. It combines the opinions of many “ decision trees”. It then takes these many decision trees and combines them to avoid overfitting which would then produce more accurate predictions. We included it because it can handle noisy data and is efficient with large datasets. It is a method that has been successfully used in many different fields of research and is definitely a popular ML algorithm in health care.
-   ## First Iteration: 
+   ## First Iteration:
+    In our first iteration, the model returned a low accuracy with very high False Negative Rate.
+
    <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/54e32ec0-a73f-453e-b5a7-ca9226b68498" width="600"> 
+   
    <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/cbb77a43-2a37-413c-b029-20803294f937" width="600">
-   ## Second Iteration:
+
+   We sought to improve upon this model to be able to better predict the Heart Attack Risk.
+   
+   ### Second Iteration:
+   In our second iteration of the Random Forest model, we increased the max_depth to 20 and the number of estimators to 2000.
    -> n_estimators = 2000 and max_depth = 20
 
-   ## Using GridSearch CV to find Best Model
-   <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/3a66b653-623a-4e03-bb5b-658484e3012f" width="600">
+   <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/54cc3b71-39c4-402a-86a5-99d0f8399fc0" width = 600>
 
-   ## Trying with Best Model from GridSearch 
+   <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/709a8a8a-0ab5-4178-944d-5e5be3929956" width =600>
+
+   This model although had a higher accuracy, had an even higher False Negative Rate.
+
+   ### Using GridSearch CV to find Best Model
+   We attempted to use GridSearch CV to find the best Model for Random Forest.
+   
+   <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/3a66b653-623a-4e03-bb5b-658484e3012f" width="600">
+   
    <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/13733577-5219-44af-9bb9-e4f5a6556234" width="600">
    
-   ## We realized that the True and False, negative and positive rates are undesirable and that data is imbalanced. Adjusted the data.
+   Although this model had higher accuracy,we realized that the False Negative Rate is too undesirable as it classifies everything as having no Heart Attack Risk.
 
-   ## Best Forest Iteration
+   ### Best Random Forest Iteration
+   Our final model for Random Forest Machine Learning, we decided to adjust the data when building the model.
+   
    <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/82f54208-15d4-4e0a-8a57-a6db36f08629" width="600">
+
+   We attained our highest accuracy while also having a higher True Positive Rate and much Lower False Negative Rate.
+
+## 4. K-Nearest Neighbour Machine Learning
+K-Nearest Model is a supervised learning classifier that is non-parametric and distance based. Based on the fact that data points with similar characteristics usually belong in the same class, it tries to locate all nearest neighbouring data points to figure out the class that the particular data point belongs to.
+
+
+Firstly, we standardise our data variables to ensure that all variables are of the same scale to prevent unnecessary domination.
+   ### First Iteration
+
+   <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/ec6a6ae9-6d2c-45dc-859d-d5f2b1423b14" width =600>
+
+   <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/9eb95fb1-1993-42fa-95a5-af79aa3f83af" width =600>
+
+   On our first run, we managed to obtain a model with an accuracy of 0.6071 but also a ridiculously high False Negative Rate.
+
+   ### Improvements to the model
+   We sought to fine tune this model by using a grid of hyperparameters for the KNN classifier, with the range of n being 1 to 60. The following graph shows the      grid of hyperparameters. We included cross validation to reduce bias as well as variance in model evaluation by splitting data into 5 folds. Search is done over the hyperparameter grid and the model is fit with different combinations of hyperparameters, with the cross-validation to assess performances.
+
+   <img src ="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/7fb4e224-2030-4bbc-b14e-e3819e73115d)" width =600>
+
+   ### Final Iteration
+
+   <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/118de2ca-b0d4-4421-b116-cf76c09fbda3" width =600>
+
+   <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/dfdca633-2745-4e59-a233-6658afe1fc9d" width =600>
+
+   It returns a better test accuracy than the first model and a neighbour value of 46 but still has an extremely high False Positive Rate which is even higher than the first model.
+
+## Conclusion
+Out of the 4 machine learning models, Random Forest is the model that is best at predicting Heart attack risk among individuals, having the highest accuracy of 0.6930 and a F1-score of around 0.7.
+
+However, these variables are not considered high enough. It shows that the current set of data and variables used are not able to accurately predict Heart Attack Risk. However, these are proven to be the variables from each category with the highest correlation to Heart Attack Risk. It reveals that the complexity of factors contributing to heart attack risk and the variables included in our analysis cannot fully capture it. As such, we believe that further research incorporating advanced modelling techniques and a broader range of variables may be necessary to gain deeper insights into the complex nature of heart attack risk and improve prediction accuracy.
+For example BMI, is not an accurate representation of health and the diet stated in the data set is subjective. Medical test and proper medical advice from professionals would be a more accurate way to determine ones heart risk. Exploring additional variables, collecting more comprehensive datasets, or experimenting with different feature engineering techniques could potentially improve predictive performance.
+
+
+
+
+
+
 
    
    
