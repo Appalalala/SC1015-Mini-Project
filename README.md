@@ -63,7 +63,7 @@ We initialise 2 new variables : `Systolic_Blood_Pressure` and `Diastolic_Blood_P
 ## Exploratory Data Analysis 
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/2af1e0a8-095c-4292-97f2-c6004f6ea402" width="600">
 
-This shows the relationship between the variables and Heart Attack Risk.
+This shows the relationship between the variables and `Heart Attack Risk`.
 For bars lying above the x axis, it shows a positive correlation while for bars lying below the x axis, it shows a negative correlation.
 
 ## Categorising Variables into 4 Categories
@@ -78,42 +78,42 @@ For bars lying above the x axis, it shows a positive correlation while for bars 
 
 
 ## Variables Chosen from Each Category
-   - From each category, we picked the variable with the greatest correlation magnitude to Heart Attack Risk. These variables will be used in our Machine Learning Models to predict Heart Attack Risk
+   - From each category, we picked the variable with the greatest correlation magnitude to `Heart Attack Risk`. These variables will be used in our Machine Learning Models to predict `Heart Attack Risk`
      
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/153801ad-e569-4f31-a208-9fe2ddf0651f" width="600">
 
 ## Exploratory Data Analysis
 ### 1. Income Level
-People with **higher** Income Level tend to have a **lower** Heart Attack Risk
+People with **higher** Income Level tend to have a **lower** `Heart Attack Risk`
 
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/542909d0-089d-45aa-971a-2b38ee0facbb" width="600">
 
 ### 2. Systolic Blood Pressure
-**Higher** Systolic Blood Pressure points to a **higher** Heart Attack Risk
+**Higher** Systolic Blood Pressure points to a **higher** `Heart Attack Risk`
 
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/6fc03755-50ed-4f51-b2a3-80f40db63890" width="600">
 
 ### 3. Cholesterol
-**Higher** cholesterol levels tend to lead to a **higher** Heart Attack Risk
+**Higher** cholesterol levels tend to lead to a **higher** `Heart Attack Risk`
 
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/0dfdc227-a1e5-4a8a-bdbb-258310b1ed79" width="600">
 
 ### 4. Medication Use
-Despite having the highest correlation value under Medical History sub-categorical group, Medication Use **does not affect** Heart Attack Risk
+Despite having the highest correlation value under Medical History sub-categorical group, Medication Use **does not affect** `Heart Attack Risk`
 
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/0224b965-a5c4-4899-955a-b08e67942957" width="600">
 
 
 ## Our Mission
-To accurately classify the Heart Attack Risk (0 or 1) of an individual based on these factors using Machine Learning 
+To accurately classify the `Heart Attack Risk` (0 or 1) of an individual based on these factors using Machine Learning 
 
 ## Machine Learning Models
-We decided to use these 4 machine learning models to be able to predict Heart Attack Risk based on the factors of `Income` , `Systolic Blood Pressure` , `Cholesterol` and `Medication Use` which are our predictor variables. We did that by first splitting the train and test data randomly in a **70/30** split respectively and then using these models to learn from our train data and to see if it would be able to accurately predict our test data.
+We decided to use these 4 machine learning models to be able to predict `Heart Attack Risk` based on the factors of `Income` , `Systolic Blood Pressure` , `Cholesterol` and `Medication Use` which are our predictor variables. We did that by first splitting the train and test data randomly in a **70/30** split respectively and then using these models to learn from our train data and to see if it would be able to accurately predict our test data.
    
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/980361b3-e2e8-44aa-aae3-b40abdb0fcc8" width ="600">
 
 ## 1.Linear Regression
-`Linear Regression` is a **machine learning model** that describes the relationship between a dependent variable, y, which in this case is the Heart Attack Risk, and one or more independent variables, x, which are our chosen variables. The goal is to find the **best-fitting linear line** that **minimises the sum of squared differences** between the observed and predicted values.
+`Linear Regression` is a **machine learning model** that describes the relationship between a dependent variable, y, which in this case is the `Heart Attack Risk`, and one or more independent variables, x, which are our chosen variables. The goal is to find the **best-fitting linear line** that **minimises the sum of squared differences** between the observed and predicted values.
  The line is described by the equation:
    - 𝑦 =𝑚𝑥+c
 
@@ -136,7 +136,7 @@ We decided to use these 4 machine learning models to be able to predict Heart At
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/5ab71cab-3f51-4c3d-a5a3-0f56af891b56" width = 600>
 
 ### Findings for Linear Regression
-The **negative explained variance** told us that the Linear Regression model fits the data very badly. We found out that the linear regression model is **not an accurate model** to represent Heart Attack Risk which takes on a **binary value** of 0 or 1. This is because Linear Regression assumes a linear relationship between the independent variables and the dependent variable and as such is unable to capture the **non-linear relationships** between predictor variables and the binary outcome. 
+The **negative explained variance** told us that the Linear Regression model fits the data very badly. We found out that the linear regression model is **not an accurate model** to represent `Heart Attack Risk` which takes on a **binary value** of 0 or 1. This is because Linear Regression assumes a linear relationship between the independent variables and the dependent variable and as such is unable to capture the **non-linear relationships** between predictor variables and the binary outcome. 
 
 
 ## 2.Logistic Regression
@@ -164,7 +164,7 @@ The **negative explained variance** told us that the Linear Regression model fit
 
    ### Multi-Variate Logistic Regression
    `Multivariate Logistic Regressions` enables us to capture **more complex relationships and interactions among variables that may not be apparent when considering only one predictor variable at a time.**
-   We then proceeded to do a `Multivariate Logistic Regression Model` where all the predictor variables were used together to predict Heart Attack Risk.
+   We then proceeded to do a `Multivariate Logistic Regression Model` where all the predictor variables were used together to predict `Heart Attack Risk`.
 
    ![image](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/80133350-c989-4517-a620-acd4f98d5ea5)
 
@@ -177,7 +177,7 @@ The **negative explained variance** told us that the Linear Regression model fit
    
    <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/cbb77a43-2a37-413c-b029-20803294f937" width="600">
 
-   We sought to improve upon this model to be able to better predict the Heart Attack Risk.
+   We sought to improve upon this model to be able to better predict the `Heart Attack Risk`.
    
    ### Second Iteration:
    In our second iteration of the `Random Forest model`, we increased the max_depth to 20 and the number of estimators to 2000.
@@ -196,7 +196,7 @@ The **negative explained variance** told us that the Linear Regression model fit
    
    <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/13733577-5219-44af-9bb9-e4f5a6556234" width="600">
    
-   Although this model had higher accuracy, we realized that the False Negative Rate is too undesirable as it classifies everything as having no Heart Attack Risk.
+   Although this model had higher accuracy, we realized that the False Negative Rate is too undesirable as it classifies everything as having no `Heart Attack Risk`.
 
    ### Best Random Forest Iteration
    
@@ -233,22 +233,8 @@ Firstly, we standardise our data variables to ensure that all variables are of t
    It returns a better test accuracy than the first model and a neighbour value of 46 but still has an extremely high False Positive Rate which is even higher than the first model.
 
 ## Conclusion
-Out of the 4 machine learning models, `Random Forest` is the model that is best at predicting Heart attack risk among individuals, having the **highest accuracy** of **0.6930** and a **F1-score** of around **0.7**.
+Out of the 4 machine learning models, `Random Forest` is the model that is best at predicting `Heart attack risk` among individuals, having the **highest accuracy** of **0.6930** and a **F1-score** of around **0.7**.
 
-However, these variables are not considered high enough. It shows that the current set of data and variables used are not able to accurately predict `Heart Attack Risk`. However, these are proven to be the variables from each category with the highest correlation to Heart Attack Risk. It reveals that the complexity of factors contributing to heart attack risk and the variables included in our analysis cannot fully capture it. As such, we believe that **further research incorporating advanced modelling techniques** and a broader range of variables may be necessary to gain deeper insights into the complex nature of heart attack risk and improve prediction accuracy.
+However, these variables are not considered high enough. It shows that the current set of data and variables used are not able to accurately predict `Heart Attack Risk`. However, these are proven to be the variables from each category with the highest correlation to `Heart Attack Risk`. It reveals that the complexity of factors contributing to `Heart Attack Risk` and the variables included in our analysis cannot fully capture it. As such, we believe that **further research incorporating advanced modelling techniques** and a broader range of variables may be necessary to gain deeper insights into the complex nature of `Heart Attack Risk` and improve prediction accuracy.
 For example `BMI`, is not an accurate representation of health and the diet stated in the data set is subjective. Medical test and proper medical advice from professionals would be a more accurate way to determine ones heart risk. **Exploring additional variables**, **collecting more comprehensive datasets**, or **experimenting with different feature engineering techniques** could potentially improve predictive performance.
-
-
-
-
-
-
-
-   
-   
-
-
-   
-
-
 
