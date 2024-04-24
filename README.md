@@ -224,13 +224,15 @@ Firstly, we standardise our data variables to ensure that all variables are of t
 
    <img src ="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/7fb4e224-2030-4bbc-b14e-e3819e73115d)" width =600>
 
+   It returned us a neighbour value of 46 which we then used to build our next model.
+
    ### Final Iteration
 
    <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/118de2ca-b0d4-4421-b116-cf76c09fbda3" width =600>
 
    <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/dfdca633-2745-4e59-a233-6658afe1fc9d" width =600>
 
-   It returns a better test accuracy than the first model and a neighbour value of 46 but still has an extremely high False Positive Rate which is even higher than the first model.
+   It returns a better test accuracy than the first model  still has an extremely high False Positive Rate which is even higher than the first model.
 
 ## Conclusion
 Out of the 4 machine learning models, `Random Forest` is the model that is best at predicting `Heart attack risk` among individuals, having the **highest accuracy** of **0.6930** and a **F1-score** of around **0.7**.
