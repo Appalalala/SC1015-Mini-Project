@@ -61,3 +61,7 @@ We initialise 2 new variables Systolic_Blood_Pressure and Diastolic_Blood_Pressu
 ## Variables Chosen from Each Category
 ![Screenshot 2024-04-24 at 6 31 37 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/153801ad-e569-4f31-a208-9fe2ddf0651f)
 
+![Screenshot 2024-04-24 at 6 35 08 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/6fc03755-50ed-4f51-b2a3-80f40db63890)
+![Screenshot 2024-04-24 at 6 35 15 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/0dfdc227-a1e5-4a8a-bdbb-258310b1ed79)
+![Screenshot 2024-04-24 at 6 35 29 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/0224b965-a5c4-4899-955a-b08e67942957)
+
