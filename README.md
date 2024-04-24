@@ -8,8 +8,7 @@ Team 10
 
 ## Our Team
 | Name | Github ID |
-|Harikrishnan Vinod|[@harikrishnanvinod](https://github.com/harikrishnan-vinod)
-
-| Name | Github ID |
-|Lim En Jia |[@enjiaaaa](https://github.com/enjiaaaa)
-
+|---|:---:|---|
+| Harikrishnan Vinod | [@harikrishnanvinod](https://github.com/harikrishnan-vinod) |
+| Lim En Jia | [@enjiaaaa](https://github.com/enjiaaaa) |
+| Muhammad Hanif | [@HanifRendevu](https://github.com/HanifRendevu) |
