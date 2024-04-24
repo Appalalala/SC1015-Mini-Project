@@ -14,7 +14,7 @@ Team 10
 | Muhammad Hanif | [@HanifRendevu](https://github.com/HanifRendevu) |
 
 ## Source of Dataset
-The [dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/heart-attack-prediction-dataset/data) is from Kaggle, by Sourav Banerjee, titled "Heart Attack Risk Prediction Dataset".
+The [dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/heart-attack-prediction-dataset/data) is from Kaggle, by Sourav Banerjee, titled "Heart Attack Risk Prediction Dataset". This dataset is a synthetic one, that mirrors real-world scenarios, created to foster learning and experimentation in a simulated environment, encouraging a deeper understanding of data analysis and interpretation.
 
 ## Context
 According to the World Health Organisation, cardiovascular disease is the **leading cause of death** globally, taking an estimated **17.9 million lives yearly**, 32% of global deaths, and **85% were due to heart attacks**.
