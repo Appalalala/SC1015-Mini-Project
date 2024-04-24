@@ -59,22 +59,27 @@ We initialise 2 new variables Systolic_Blood_Pressure and Diastolic_Blood_Pressu
 ![Screenshot 2024-04-24 at 6 31 00 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/0d4ad86f-b1c9-4966-97f4-b9f1cf149420)
 
 ## Variables Chosen from Each Category
-1. Income Level
-People with higher Income Level tend to have a lower Heart Attack Risk
-
 ![Screenshot 2024-04-24 at 6 31 37 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/153801ad-e569-4f31-a208-9fe2ddf0651f)
 
-2. Systolic Blood Pressure
+
+## 1. Income Level
+People with higher Income Level tend to have a lower Heart Attack Risk
+![Screenshot 2024-04-24 at 6 34 11 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/542909d0-089d-45aa-971a-2b38ee0facbb)
+
+## 2. Systolic Blood Pressure
 Higher Systolic Blood Pressure points to a higher Heart Attack Risk
 
 ![Screenshot 2024-04-24 at 6 35 08 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/6fc03755-50ed-4f51-b2a3-80f40db63890)
 
-3. Cholesterol
+## 3. Cholesterol
 Higher cholesterol tends to lead to a higher Heart Attack Risk
 ![Screenshot 2024-04-24 at 6 35 15 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/0dfdc227-a1e5-4a8a-bdbb-258310b1ed79)
 
-4. Medication Use
+## 4. Medication Use
 Despite having the highest correlation value under Medical History sub-categorical group, Medication Use does not affect Heart Attack Risk
 
 ![Screenshot 2024-04-24 at 6 35 29 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/0224b965-a5c4-4899-955a-b08e67942957)
 
+
+## Our Mission
+To accurately classify the Heart Attack Risk (0 or 1) of an individual based on these factors using Machine Learning 
