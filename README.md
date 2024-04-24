@@ -55,7 +55,7 @@ We initialise 2 new variables **Systolic_Blood_Pressure** and **Diastolic_Blood_
 ### 4. Ensure that our data is non-null
    - It ensures data integrity
 
-<img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/34903d89-281d-4478-831f-b90fb56a0ef1" width="200" height="150">
+<img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/34903d89-281d-4478-831f-b90fb56a0ef1" width="200">
 
 ## Categorising Variables into 4 Categories
    - This helps when trying to capture non-linear relationships between variables and the target variable like in this case.
