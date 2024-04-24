@@ -53,6 +53,8 @@ We initialise 2 new variables **Systolic_Blood_Pressure** and **Diastolic_Blood_
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/6da3ae39-608c-4b12-b170-435404959b1d" width="600">
 
 ### 4. Ensure that our data is non-null
+<img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/529cced6-b12b-486e-9f19-513fbc836e80" width = "600">
+
 
 ## Categorising Variables into 4 Categories
    - This helps when trying to capture non-linear relationships between variables and the target variable like in this case.
