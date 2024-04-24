@@ -86,7 +86,7 @@ People with **higher** Income Level tend to have a **lower** Heart Attack Risk
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/6fc03755-50ed-4f51-b2a3-80f40db63890" width="600">
 
 ### 3. Cholesterol
-**Higher** cholesterol tends to lead to a **higher** Heart Attack Risk
+**Higher** cholesterol levels tend to lead to a **higher** Heart Attack Risk
 
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/0dfdc227-a1e5-4a8a-bdbb-258310b1ed79" width="600">
 
