@@ -29,5 +29,5 @@ To find out how do the different factors affect the heart attack risk among indi
 
 
 ## Data
-![Screenshot 2024-04-24 at 5 06 46 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/527876d8-1630-4d9a-8211-702f2309a558)
+![Screenshot 2024-04-24 at 5 51 56 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/20bdfa97-275f-4b1a-acae-7ac35b32b274)
 
