@@ -193,7 +193,7 @@ Random Forest is like a group decision-making team in machine learning. It combi
    Although this model had higher accuracy,we realized that the False Negative Rate is too undesirable as it classifies everything as having no Heart Attack Risk.
 
    ### Best Random Forest Iteration
-   Our final model for Random Forest Machine Learning, we decided to adjust the data when building the model.
+   Our final model for Random Forest Machine Learning, we decided to adjust and correct the data imbalance when building the model.
    
    <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/82f54208-15d4-4e0a-8a57-a6db36f08629" width="600">
 
