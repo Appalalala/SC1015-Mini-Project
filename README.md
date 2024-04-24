@@ -46,22 +46,35 @@ We initialise 2 new variables Systolic_Blood_Pressure and Diastolic_Blood_Pressu
 
 
 3. Remove Outliers
-![Screenshot 2024-04-24 at 5 56 45 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/f20cac37-4677-45fe-8f58-9beaf7397aae =250x250)
-![Screenshot 2024-04-24 at 3 33 00 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/6da3ae39-608c-4b12-b170-435404959b1d =250x250)
+![Screenshot 2024-04-24 at 5 56 45 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/f20cac37-4677-45fe-8f58-9beaf7397aae)
+![Screenshot 2024-04-24 at 3 33 00 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/6da3ae39-608c-4b12-b170-435404959b1d)
 
 4. Ensure that our data is non-null
 
 ## Categorising Variables into 4 Categories 
-![Screenshot 2024-04-24 at 6 29 42 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/a4c98fac-a3a1-43fd-9498-1084f1ea7ab5 =250x250)
+![Screenshot 2024-04-24 at 6 29 42 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/a4c98fac-a3a1-43fd-9498-1084f1ea7ab5)
 
 ## Heat Maps to show Correlation
-![Screenshot 2024-04-24 at 6 30 34 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/96a7423a-be66-40aa-944d-b3be972c59ff =250x250)
-![Screenshot 2024-04-24 at 6 31 00 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/0d4ad86f-b1c9-4966-97f4-b9f1cf149420 =250x250)
+![Screenshot 2024-04-24 at 6 30 34 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/96a7423a-be66-40aa-944d-b3be972c59ff)
+![Screenshot 2024-04-24 at 6 31 00 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/0d4ad86f-b1c9-4966-97f4-b9f1cf149420)
 
 ## Variables Chosen from Each Category
-![Screenshot 2024-04-24 at 6 31 37 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/153801ad-e569-4f31-a208-9fe2ddf0651f=250x250)
+1. Income Level
+People with higher Income Level tend to have a lower Heart Attack Risk
 
-![Screenshot 2024-04-24 at 6 35 08 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/6fc03755-50ed-4f51-b2a3-80f40db63890 =250x250)
-![Screenshot 2024-04-24 at 6 35 15 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/0dfdc227-a1e5-4a8a-bdbb-258310b1ed79 =250x250)
-![Screenshot 2024-04-24 at 6 35 29 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/0224b965-a5c4-4899-955a-b08e67942957 =250x250)
+![Screenshot 2024-04-24 at 6 31 37 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/153801ad-e569-4f31-a208-9fe2ddf0651f)
+
+2. Systolic Blood Pressure
+Higher Systolic Blood Pressure points to a higher Heart Attack Risk
+
+![Screenshot 2024-04-24 at 6 35 08 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/6fc03755-50ed-4f51-b2a3-80f40db63890)
+
+3. Cholesterol
+Higher cholesterol tends to lead to a higher Heart Attack Risk
+![Screenshot 2024-04-24 at 6 35 15 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/0dfdc227-a1e5-4a8a-bdbb-258310b1ed79)
+
+4. Medication Use
+Despite having the highest correlation value under Medical History sub-categorical group, Medication Use does not affect Heart Attack Risk
+
+![Screenshot 2024-04-24 at 6 35 29 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/0224b965-a5c4-4899-955a-b08e67942957)
 
