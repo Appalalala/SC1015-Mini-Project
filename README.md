@@ -30,12 +30,13 @@ To find out how do the different factors affect the heart attack risk among indi
 
 ## Data
 The following is the factors we will be looking at
-<img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/20bdfa97-275f-4b1a-acae-7ac35b32b274" width="400">
+
+<img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/20bdfa97-275f-4b1a-acae-7ac35b32b274" width="450">
 
 ## Data Cleaning
 1. Blood pressure data consists of both systolic blood pressure level and diastolic blood pressure level separated by a /.
 We initialise 2 new variables Systolic_Blood_Pressure and Diastolic_Blood_Pressure.
-<img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/bf3ea47f-fecd-4fd8-85c7-99fe8cf41bcb" width="400">
+<img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/bf3ea47f-fecd-4fd8-85c7-99fe8cf41bcb" width="450">
 
 2. We drop these 4 factors
    - Patient ID : irrelevant
