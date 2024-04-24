@@ -35,7 +35,8 @@ The following is the factors we will be looking at
 ## Data Cleaning
 ### 1. Blood pressure data consists of both systolic blood pressure level and diastolic blood pressure level separated by a /.
 
-We initialise 2 new variables **`Systolic_Blood_Pressure'** and **`Diastolic_Blood_Pressure'**.
+We initialise 2 new variables **Systolic_Blood_Pressure** and **Diastolic_Blood_Pressure**.
+
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/bf3ea47f-fecd-4fd8-85c7-99fe8cf41bcb" width="600">
 
 ### 2. We drop these 4 factors
@@ -46,37 +47,49 @@ We initialise 2 new variables **`Systolic_Blood_Pressure'** and **`Diastolic_Blo
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/f547c892-d01f-408f-8873-f6628e0ea258" width ="600">
 
 ### 3. Remove Outliers
-   -
+   - It helps to improve the performance of the model
+   - 
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/f20cac37-4677-45fe-8f58-9beaf7397aae" width="600">
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/6da3ae39-608c-4b12-b170-435404959b1d" width="600">
 
 ### 4. Ensure that our data is non-null
 
-## Categorising Variables into 4 Categories 
+## Categorising Variables into 4 Categories
+   - This helps when trying to capture non-linear relationships between variables and the target variable like in this case.
+   - 
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/a4c98fac-a3a1-43fd-9498-1084f1ea7ab5" width="600">
 
-## Heat Maps to show Correlation
-<img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/96a7423a-be66-40aa-944d-b3be972c59ff" width="600">
-<img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/0d4ad86f-b1c9-4966-97f4-b9f1cf149420" width="600">
+## Heat Maps that show Correlation
+   - This shows which variables are related to the risk of having Heart Attack
+   - 
+<img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/5a7eb960-c5e1-4e10-9bf9-a16d56427454" width ="600">
+<img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/cf63576d-b093-48c4-8181-4a3e611c0b9a" width ="600">
+
 
 ## Variables Chosen from Each Category
+   - From each category of variables, we picked the variable with the highest correlation to Heart Attack Risk to be used in our Machine Learning Model to predict Heart Attack Risk
+     
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/153801ad-e569-4f31-a208-9fe2ddf0651f" width="600">
 
-
+## Exploratory Data Analysis
 ### 1. Income Level
-People with higher Income Level tend to have a lower Heart Attack Risk
+People with **higher** Income Level tend to have a **lower** Heart Attack Risk
+
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/542909d0-089d-45aa-971a-2b38ee0facbb" width="600">
 
 ### 2. Systolic Blood Pressure
-Higher Systolic Blood Pressure points to a higher Heart Attack Risk
+**Higher** Systolic Blood Pressure points to a **higher** Heart Attack Risk
+
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/6fc03755-50ed-4f51-b2a3-80f40db63890" width="600">
 
 ### 3. Cholesterol
-Higher cholesterol tends to lead to a higher Heart Attack Risk
+**Higher** cholesterol tends to lead to a **higher** Heart Attack Risk
+
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/0dfdc227-a1e5-4a8a-bdbb-258310b1ed79" width="600">
 
 ### 4. Medication Use
-Despite having the highest correlation value under Medical History sub-categorical group, Medication Use does not affect Heart Attack Risk
+Despite having the highest correlation value under Medical History sub-categorical group, Medication Use **does not affect** Heart Attack Risk
+
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/0224b965-a5c4-4899-955a-b08e67942957" width="600">
 
 
@@ -84,6 +97,7 @@ Despite having the highest correlation value under Medical History sub-categoric
 To accurately classify the Heart Attack Risk (0 or 1) of an individual based on these factors using Machine Learning 
 
 ## Machine Learning Models
+   -We decided to use these 4 machine learning models to be able to predict Heart Attack Risk based on the factors of Income, Systolic Blood Pressure, Cholesterol and Medication Use which are our predictor variables. We did that by first splitting the train and test data randomly in a 70/30 split respectively and then using these models to learn from our train data and to see if it would be able to accurately predict our test data.
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/980361b3-e2e8-44aa-aae3-b40abdb0fcc8" width ="600">
 
 ## 1.Linear Regression
