@@ -97,34 +97,67 @@ Despite having the highest correlation value under Medical History sub-categoric
 To accurately classify the Heart Attack Risk (0 or 1) of an individual based on these factors using Machine Learning 
 
 ## Machine Learning Models
-   -We decided to use these 4 machine learning models to be able to predict Heart Attack Risk based on the factors of Income, Systolic Blood Pressure, Cholesterol and Medication Use which are our predictor variables. We did that by first splitting the train and test data randomly in a 70/30 split respectively and then using these models to learn from our train data and to see if it would be able to accurately predict our test data.
+We decided to use these 4 machine learning models to be able to predict Heart Attack Risk based on the factors of Income, Systolic Blood Pressure, Cholesterol and Medication Use which are our predictor variables. We did that by first splitting the train and test data randomly in a **70/30** split respectively and then using these models to learn from our train data and to see if it would be able to accurately predict our test data.
    
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/980361b3-e2e8-44aa-aae3-b40abdb0fcc8" width ="600">
 
 ## 1.Linear Regression
+Linear Regression is a **machine learning model** that describes the relationship between a dependent variable,y which in this case is the Heart Attack Risk, and one or more independent variables, which are our factors. The goal is to find the best-fitting linear line that minimises the sum of squared differences between the observed and predicted values.
+ The line is described by the equation:
+   - 𝑦 =𝑚𝑥+c
+### UniVariate Linear Regression
+#### **Income:**
+
+<img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/ecbd224d-d744-4cca-a75d-a41a5aa2ae93" width = 600>
+
+#### **Systolic Blood Pressure:**
+
+<img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/f83e6ed2-5423-4002-b494-bac6c70ccb06" width = 600>
 
 
+#### **Cholesterol:**
 
+<img src ="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/648b24ce-1206-40b2-b42f-bc161a840424" width = 600>
+
+#### **Medication Use:**
+
+<img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/5ab71cab-3f51-4c3d-a5a3-0f56af891b56" width = 600>
+
+### Findings for Linear Regression
+The **negative explained variance** told us that the Linear Regression model fits the data very badly. We found out that the linear regression model is not an accurate model to represent Heart Attack Risk which takes on a **binary value** of 0 or 1. This is because Linear Regression assumes a linear relationship between the independent variables and the dependent variable and as such is unable to capture the **non-linear relationships** between predictor variables and the binary outcome. 
 
 
 ## 2.Logistic Regression
-Income:\
+Logistic Regression Model in which a **logistic function** is used to model the relationships between predictor variables and the binary response variable. The model would then estimate the coefficients of the model that maximises the probability of the observed data
+### UniVariate Lgositic Regression
+#### **Income:**
+**Test Accuracy: 0.6435907189045265**
+
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/ac40ce6d-576b-4f3e-b9c3-5863447cbad7" width="600"> 
 
-Systolic Blood Pressure:\
+#### **Systolic Blood Pressure:**
+**Test Accuracy: 0.6451122099657665**
+
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/25436725-2929-4ce8-99eb-91182c57a824" width="600">
 
-Cholesterol:\
+#### **Cholesterol:**
+**Test Accuracy: 0.6496766831494865**
+
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/38cf1057-3f15-4713-ae53-8785051a380c" width="600">
 
-Medication Use:\
+#### **Medication Use:**
+**Test Accuracy: 0.6356028908330164**
+
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/3ff7d8a0-c210-4da4-87bd-e100663460de" width="600">
 
-## 3. Multi-Variate Logistic Regression
-For Income, Systolic Blood Pressure, Cholesterol and Medication Use:
+### Multi-Variate Logistic Regression
+**Multivariate regressions enables us to capture more complex relationships and interactions among variables that may not be apparent when considering only one predictor variable at a time.**
+We then proceeded to do a Multivariate Logistic Regression Model where all the predictor variables were used together to predict Heart Attack Risk.
+
 ![image](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/80133350-c989-4517-a620-acd4f98d5ea5)
 
-## 4. Random Forest Machine Learning
+## 3. Random Forest Machine Learning
+Random Forest is like a group decision-making team in machine learning. It combines the opinions of many “ decision trees”. It then takes these many decision trees and combines them to avoid overfitting which would then produce more accurate predictions. We included it because it can handle noisy data and is efficient with large datasets. It is a method that has been successfully used in many different fields of research and is definitely a popular ML algorithm in health care.
    ## First Iteration: 
    <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/54e32ec0-a73f-453e-b5a7-ca9226b68498" width="600"> 
    <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/cbb77a43-2a37-413c-b029-20803294f937" width="600">
