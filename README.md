@@ -33,22 +33,24 @@ The following is the factors we will be looking at
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/20bdfa97-275f-4b1a-acae-7ac35b32b274" width="600">
 
 ## Data Cleaning
-1. Blood pressure data consists of both systolic blood pressure level and diastolic blood pressure level separated by a /.
-We initialise 2 new variables Systolic_Blood_Pressure and Diastolic_Blood_Pressure.
+### 1. Blood pressure data consists of both systolic blood pressure level and diastolic blood pressure level separated by a /.
+
+We initialise 2 new variables **`Systolic_Blood_Pressure'** and **`Diastolic_Blood_Pressure'**.
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/bf3ea47f-fecd-4fd8-85c7-99fe8cf41bcb" width="600">
 
-2. We drop these 4 factors
-   - Patient ID : irrelevant
-   - Country & Hemisphere : Are better represented by continent to show distribution of the participations
-   - Blood Pressure : Split into Systolic and Diastolic Blood Pressure earlier
+### 2. We drop these 4 factors
+   - **Patient ID** : irrelevant
+   - **Country & Hemisphere** : Are better represented by continent to show distribution of the participations
+   - **Blood Pressure** : Split into Systolic and Diastolic Blood Pressure earlier
 
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/f547c892-d01f-408f-8873-f6628e0ea258" width ="600">
 
-3. Remove Outliers
+### 3. Remove Outliers
+   -
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/f20cac37-4677-45fe-8f58-9beaf7397aae" width="600">
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/6da3ae39-608c-4b12-b170-435404959b1d" width="600">
 
-4. Ensure that our data is non-null
+### 4. Ensure that our data is non-null
 
 ## Categorising Variables into 4 Categories 
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/a4c98fac-a3a1-43fd-9498-1084f1ea7ab5" width="600">
