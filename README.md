@@ -105,7 +105,7 @@ We decided to use these 4 machine learning models to be able to predict Heart At
 Linear Regression is a **machine learning model** that describes the relationship between a dependent variable,y which in this case is the Heart Attack Risk, and one or more independent variables, which are our factors. The goal is to find the best-fitting linear line that minimises the sum of squared differences between the observed and predicted values.
  The line is described by the equation:
    - 𝑦 =𝑚𝑥+c
-### UniVariate Linear Regression
+### Univariate Linear Regression
 #### **Income:**
 
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/ecbd224d-d744-4cca-a75d-a41a5aa2ae93" width = 600>
