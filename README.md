@@ -171,7 +171,7 @@ Random Forest is like a group decision-making team in machine learning. It combi
    In our second iteration of the Random Forest model, we increased the max_depth to 20 and the number of estimators to 2000.
    -> n_estimators = 2000 and max_depth = 20
 
-   <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/54cc3b71-39c4-402a-86a5-99d0f8399fc0" width = 600>
+   <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/ad142791-ad34-45c5-8be9-fda84cc7f73f" width =600>
 
    <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/709a8a8a-0ab5-4178-944d-5e5be3929956" width =600>
 
