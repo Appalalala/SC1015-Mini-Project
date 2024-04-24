@@ -57,3 +57,7 @@ We initialise 2 new variables Systolic_Blood_Pressure and Diastolic_Blood_Pressu
 ## Heat Maps to show Correlation
 ![Screenshot 2024-04-24 at 6 30 34 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/96a7423a-be66-40aa-944d-b3be972c59ff)
 ![Screenshot 2024-04-24 at 6 31 00 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/0d4ad86f-b1c9-4966-97f4-b9f1cf149420)
+
+## Variables Chosen from Each Category
+![Screenshot 2024-04-24 at 6 31 37 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/153801ad-e569-4f31-a208-9fe2ddf0651f)
+
