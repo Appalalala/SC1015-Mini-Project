@@ -48,7 +48,7 @@ We initialise 2 new variables **Systolic_Blood_Pressure** and **Diastolic_Blood_
 
 ### 3. Remove Outliers
    - It helps to improve the performance of the model
-   - 
+     
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/f20cac37-4677-45fe-8f58-9beaf7397aae" width="600">
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/6da3ae39-608c-4b12-b170-435404959b1d" width="600">
 
@@ -56,12 +56,12 @@ We initialise 2 new variables **Systolic_Blood_Pressure** and **Diastolic_Blood_
 
 ## Categorising Variables into 4 Categories
    - This helps when trying to capture non-linear relationships between variables and the target variable like in this case.
-   - 
+     
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/a4c98fac-a3a1-43fd-9498-1084f1ea7ab5" width="600">
 
 ## Heat Maps that show Correlation
    - This shows which variables are related to the risk of having Heart Attack
-   - 
+     
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/5a7eb960-c5e1-4e10-9bf9-a16d56427454" width ="600">
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/cf63576d-b093-48c4-8181-4a3e611c0b9a" width ="600">
 
@@ -98,6 +98,7 @@ To accurately classify the Heart Attack Risk (0 or 1) of an individual based on 
 
 ## Machine Learning Models
    -We decided to use these 4 machine learning models to be able to predict Heart Attack Risk based on the factors of Income, Systolic Blood Pressure, Cholesterol and Medication Use which are our predictor variables. We did that by first splitting the train and test data randomly in a 70/30 split respectively and then using these models to learn from our train data and to see if it would be able to accurately predict our test data.
+   
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/980361b3-e2e8-44aa-aae3-b40abdb0fcc8" width ="600">
 
 ## 1.Linear Regression
