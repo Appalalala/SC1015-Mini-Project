@@ -25,7 +25,7 @@ Up to 80% of premature heart attacks can be prevented with risk management
 
 
 ## Problem Statement
-# We hope to find out how do different factors affect the risk of heart attack among individuals
+We hope to find out how do different factors affect the risk of heart attack among individuals
 
 
 ## Exploratory Data Analysis
