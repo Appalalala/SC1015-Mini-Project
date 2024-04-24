@@ -13,7 +13,7 @@ Team 10
 | Lim En Jia | [@enjiaaaa](https://github.com/enjiaaaa) |
 | Muhammad Hanif | [@HanifRendevu](https://github.com/HanifRendevu) |
 
-## Dataset
+## Source of Dataset
 The dataset is from Kaggle, by Sourav Banerjee, titled "Heart Attack Risk Prediction Dataset".
 Link : https://www.kaggle.com/datasets/iamsouravbanerjee/heart-attack-prediction-dataset/data
 
@@ -29,5 +29,11 @@ To find out how do the different factors affect the heart attack risk among indi
 
 
 ## Data
+The following is the factors we will be looking at
 ![Screenshot 2024-04-24 at 5 51 56 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/20bdfa97-275f-4b1a-acae-7ac35b32b274)
 
+## Data Cleaning
+![Screenshot 2024-04-24 at 5 56 29 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/bf3ea47f-fecd-4fd8-85c7-99fe8cf41bcb)
+![Screenshot 2024-04-24 at 5 56 45 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/f20cac37-4677-45fe-8f58-9beaf7397aae)
+![Screenshot 2024-04-24 at 5 56 59 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/7f3828d5-a035-4b0b-accd-e2410194147e)
+![Screenshot 2024-04-24 at 5 57 14 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/ab20a478-cfcc-4efd-bc46-cdec4b726193)
