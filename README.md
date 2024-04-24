@@ -20,11 +20,14 @@ The [dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/heart-attack-pre
 According to the World Health Organisation, cardiovascular disease is the leading cause of death globally, taking an estimated 17.9 million lives yearly, 32% of global deaths, and 85% were due to heart attacks.
 In Singapore, it is reported 11631 heart attack cases per 100k people (7,344 in 2010), averaging 31 a day. Among them, 9.2% died within 30 days.
 
-Up to 80% of premature heart attacks can be prevented with risk management
+Up to 80% of premature heart attacks can be prevented with risk management.
 
 
 ## Problem Statement
-To find out how do the different factors affect the heart attack risk among individuals
+To find out how do different factors affect the risk of heart attack among individuals.
+
+## Our Goal
+To leverage **machine learning** to accurately assess the risk of heart attacks for individuals using the different factors from the dataset
 
 
 ## Data
