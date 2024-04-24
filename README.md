@@ -17,10 +17,10 @@ Team 10
 The [dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/heart-attack-prediction-dataset/data) is from Kaggle, by Sourav Banerjee, titled "Heart Attack Risk Prediction Dataset".
 
 ## Context
-According to the World Health Organisation, cardiovascular disease is the leading cause of death globally, taking an estimated 17.9 million lives yearly, 32% of global deaths, and 85% were due to heart attacks.
-In Singapore, it is reported 11631 heart attack cases per 100k people (7,344 in 2010), averaging 31 a day. Among them, 9.2% died within 30 days.
+According to the World Health Organisation, cardiovascular disease is the **leading cause of death** globally, taking an estimated **17.9 million lives yearly**, 32% of global deaths, and **85% were due to heart attacks**.
+In Singapore, it is reported **11631 heart attack cases per 100k people** (7,344 in 2010), averaging 31 a day. Among them, 9.2% died within 30 days.
 
-Up to 80% of premature heart attacks can be prevented with risk management.
+Up to **80%** of premature heart attacks **can be prevented** with risk management.
 
 
 ## Problem Statement
@@ -31,14 +31,14 @@ To leverage **machine learning** to accurately assess the risk of heart attacks 
 
 
 ## Data
-The following is the factors we will be looking at
+These are the factors we will be looking at
 
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/20bdfa97-275f-4b1a-acae-7ac35b32b274" width="400">
 
 ## Data Cleaning
 ### 1. Blood pressure data consists of both systolic blood pressure level and diastolic blood pressure level separated by a /.
 
-We initialise 2 new variables `Systolic_Blood_Pressure` and `Diastolic_Blood_Pressure`.
+We initialise 2 new variables : `Systolic_Blood_Pressure` and `Diastolic_Blood_Pressure`.
 
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/bf3ea47f-fecd-4fd8-85c7-99fe8cf41bcb" width="600">
 
@@ -60,20 +60,25 @@ We initialise 2 new variables `Systolic_Blood_Pressure` and `Diastolic_Blood_Pre
 
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/34903d89-281d-4478-831f-b90fb56a0ef1" width="150">
 
+## Exploratory Data Analysis 
+<img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/2af1e0a8-095c-4292-97f2-c6004f6ea402" width="600">
+
+This shows the relationship between the variables and Heart Attack Risk.
+For bars lying above the x axis, it shows a positive correlation while for bars lying below the x axis, it shows a negative correlation.
+
 ## Categorising Variables into 4 Categories
-   - This helps when trying to capture non-linear relationships between variables and the target variable like in this case.
      
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/a4c98fac-a3a1-43fd-9498-1084f1ea7ab5" width="600">
 
 ## Heat Maps that show Correlation
-   - This shows which variables are related to the risk of having Heart Attack
+   - Correlation values are reflected in the heat maps to show their relationship with `Heart Attack Risk`
      
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/5a7eb960-c5e1-4e10-9bf9-a16d56427454" width ="600">
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/cf63576d-b093-48c4-8181-4a3e611c0b9a" width ="600">
 
 
 ## Variables Chosen from Each Category
-   - From each category, we picked the variable with the highest correlation to Heart Attack Risk to be used in our Machine Learning Model to predict Heart Attack Risk
+   - From each category, we picked the variable with the greatest correlation magnitude to Heart Attack Risk. These variables will be used in our Machine Learning Models to predict Heart Attack Risk
      
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/153801ad-e569-4f31-a208-9fe2ddf0651f" width="600">
 
@@ -175,7 +180,7 @@ The **negative explained variance** told us that the Linear Regression model fit
    We sought to improve upon this model to be able to better predict the Heart Attack Risk.
    
    ### Second Iteration:
-   In our second iteration of the Random Forest model, we increased the max_depth to 20 and the number of estimators to 2000.
+   In our second iteration of the `Random Forest model`, we increased the max_depth to 20 and the number of estimators to 2000.
    -> n_estimators = 2000 and max_depth = 20
 
    <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/ad142791-ad34-45c5-8be9-fda84cc7f73f" width =600>
@@ -185,24 +190,24 @@ The **negative explained variance** told us that the Linear Regression model fit
    This model although had a higher accuracy, had an even higher False Negative Rate.
 
    ### Using GridSearch CV to find Best Model
-   We attempted to use GridSearch CV to find the best Model for Random Forest.
+   We attempted to use `GridSearch CV` to find the best model for `Random Forest`.
    
    <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/3a66b653-623a-4e03-bb5b-658484e3012f" width="600">
    
    <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/13733577-5219-44af-9bb9-e4f5a6556234" width="600">
    
-   Although this model had higher accuracy,we realized that the False Negative Rate is too undesirable as it classifies everything as having no Heart Attack Risk.
+   Although this model had higher accuracy, we realized that the False Negative Rate is too undesirable as it classifies everything as having no Heart Attack Risk.
 
    ### Best Random Forest Iteration
    
-   For our final model for Random Forest Machine Learning, we decided to adjust and balance the data when building the model.
+   For our final model for `Random Forest Machine Learning`, we decided to adjust and balance the data when building the model.
    
    <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/82f54208-15d4-4e0a-8a57-a6db36f08629" width="600">
 
    We attained our highest accuracy while also having a higher True Positive Rate and much Lower False Negative Rate.
 
 ## 4. K-Nearest Neighbour Machine Learning
-K-Nearest Model is a supervised learning classifier that is non-parametric and distance based. Based on the fact that data points with similar characteristics usually belong in the same class, it tries to locate all nearest neighbouring data points to figure out the class that the particular data point belongs to.
+`K-Nearest Model` is a supervised learning classifier that is non-parametric and distance based. Based on the fact that data points with similar characteristics usually belong in the same class, it tries to locate all nearest neighbouring data points to figure out the class that the particular data point belongs to.
 
 
 Firstly, we standardise our data variables to ensure that all variables are of the same scale to prevent unnecessary domination.
@@ -212,10 +217,10 @@ Firstly, we standardise our data variables to ensure that all variables are of t
 
    <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/9eb95fb1-1993-42fa-95a5-af79aa3f83af" width =600>
 
-   On our first run, we managed to obtain a model with an accuracy of 0.6071 but also a ridiculously high False Negative Rate.
+   On our first run, we managed to obtain a model with an accuracy of **0.6071** but also a ridiculously high False Negative Rate.
 
    ### Improvements to the model
-   We sought to fine tune this model by using a grid of hyperparameters for the KNN classifier, with the range of n being 1 to 60. The following graph shows the      grid of hyperparameters. We included cross validation to reduce bias as well as variance in model evaluation by splitting data into 5 folds. Search is done over the hyperparameter grid and the model is fit with different combinations of hyperparameters, with the cross-validation to assess performances.
+   We sought to fine tune this model by using a grid of hyperparameters for the `KNN classifier`, with the range of n being 1 to 60. The following graph shows the **grid of hyperparameters**. We included cross validation to reduce bias as well as variance in model evaluation by splitting data into 5 folds. Search is done over the hyperparameter grid and the model is fit with different combinations of hyperparameters, with the **cross-validation** to assess performances.
 
    <img src ="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/114349205/7fb4e224-2030-4bbc-b14e-e3819e73115d)" width =600>
 
@@ -228,10 +233,10 @@ Firstly, we standardise our data variables to ensure that all variables are of t
    It returns a better test accuracy than the first model and a neighbour value of 46 but still has an extremely high False Positive Rate which is even higher than the first model.
 
 ## Conclusion
-Out of the 4 machine learning models, Random Forest is the model that is best at predicting Heart attack risk among individuals, having the highest accuracy of 0.6930 and a F1-score of around 0.7.
+Out of the 4 machine learning models, `Random Forest` is the model that is best at predicting Heart attack risk among individuals, having the **highest accuracy** of **0.6930** and a **F1-score** of around **0.7**.
 
 However, these variables are not considered high enough. It shows that the current set of data and variables used are not able to accurately predict `Heart Attack Risk`. However, these are proven to be the variables from each category with the highest correlation to Heart Attack Risk. It reveals that the complexity of factors contributing to heart attack risk and the variables included in our analysis cannot fully capture it. As such, we believe that **further research incorporating advanced modelling techniques** and a broader range of variables may be necessary to gain deeper insights into the complex nature of heart attack risk and improve prediction accuracy.
-For example BMI, is not an accurate representation of health and the diet stated in the data set is subjective. Medical test and proper medical advice from professionals would be a more accurate way to determine ones heart risk. Exploring additional variables, collecting more comprehensive datasets, or experimenting with different feature engineering techniques could potentially improve predictive performance.
+For example `BMI`, is not an accurate representation of health and the diet stated in the data set is subjective. Medical test and proper medical advice from professionals would be a more accurate way to determine ones heart risk. **Exploring additional variables**, **collecting more comprehensive datasets**, or **experimenting with different feature engineering techniques** could potentially improve predictive performance.
 
 
 
