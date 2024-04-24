@@ -24,7 +24,7 @@ Up to 80% of premature heart attacks can be prevented with risk management.
 
 
 ## Problem Statement
-To find out how do different factors affect the risk of heart attack among individuals.
+To find out how different factors affect the risk of heart attack among individuals.
 
 ## Our Goal
 To leverage **machine learning** to accurately assess the risk of heart attacks for individuals using the different factors from the dataset
