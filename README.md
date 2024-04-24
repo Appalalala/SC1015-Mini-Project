@@ -50,4 +50,4 @@ We initialise 2 new variables Systolic_Blood_Pressure and Diastolic_Blood_Pressu
 ![Screenshot 2024-04-24 at 3 33 00 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/6da3ae39-608c-4b12-b170-435404959b1d)
 
 4. Ensure that our data is non-null
-![Screenshot 2024-04-24 at 3 28 54 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/d231569f-c9c1-4e4a-8b67-cc68c8981187)
+![Screenshot 2024-04-24 at 5 57 14 PM](https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/a9ec8b2b-05ef-4697-befb-86c1c03e5e64)
