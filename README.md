@@ -103,7 +103,7 @@ Despite having the highest correlation value under Medical History sub-categoric
 To accurately classify the Heart Attack Risk (0 or 1) of an individual based on these factors using Machine Learning 
 
 ## Machine Learning Models
-We decided to use these 4 machine learning models to be able to predict Heart Attack Risk based on the factors of Income, Systolic Blood Pressure, Cholesterol and Medication Use which are our predictor variables. We did that by first splitting the train and test data randomly in a **70/30** split respectively and then using these models to learn from our train data and to see if it would be able to accurately predict our test data.
+We decided to use these 4 machine learning models to be able to predict Heart Attack Risk based on the factors of 'Income' , 'Systolic Blood Pressure' , 'Cholesterol' and 'Medication Use' which are our predictor variables. We did that by first splitting the train and test data randomly in a **70/30** split respectively and then using these models to learn from our train data and to see if it would be able to accurately predict our test data.
    
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/160342282/980361b3-e2e8-44aa-aae3-b40abdb0fcc8" width ="600">
 
