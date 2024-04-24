@@ -41,7 +41,7 @@ We initialise 2 new variables Systolic_Blood_Pressure and Diastolic_Blood_Pressu
    - Patient ID : irrelevant
    - Country & Hemisphere : Are better represented by continent to show distribution of the participations
    - Blood Pressure : Split into Systolic and Diastolic Blood Pressure earlier
-<img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/7f3828d5-a035-4b0b-accd-e2410194147e" height ="300" width="600">
+<img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/7f3828d5-a035-4b0b-accd-e2410194147e" width="600">
 
 3. Remove Outliers
 <img src="https://github.com/harikrishnan-vinod/SC1015-Mini-Project/assets/161003075/f20cac37-4677-45fe-8f58-9beaf7397aae" width="600">
